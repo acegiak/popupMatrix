@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+
+div#matrix{font-family: 'Roboto', sans-serif; display:table; border:1px solid #222; bgcolor:#bbaabb;}
+
+div#matrix{position:fixed; width:300px; height:400px; bottom:0px;right:25px;}
+
+
+a.tabname,a.tabname:visited{ padding:5px; color:#996699;text-decoration:none;}
+a.tabname.selected{font-weight:bold;}
+
+div#matrix .sender{font-weight:bold;}
+
+div#matrix form#chatform button{width:12%;}
+div#matrix form#chatform input#chatfield{width:82%;}
+
+
+.roomtab div.messages{width:100%;height:350px;overflow-y:scroll;}
+.roomtab div.messages{display:none;}
+.roomtab.expanded div.messages{display:block;}
